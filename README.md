@@ -42,18 +42,18 @@ foundries, OSATs, equipment, substrates, EDA, hyperscalers, and chokepoints with
 **[No. 13 - supplier-risk-rag-agent](https://github.com/AthenaTheOwl/supplier-risk-rag-agent)** - *RAG with receipts.*
 SEC filing excerpts in, cited answers out. retrieval, citation faithfulness, abstention, and regression evals.
 
-## // starforge cluster - in-progress passion project
+## // starforge cluster - published serial + in-progress game adaptation
 
-Curated public exhibits from Starforge, an actively worked-on narrative game project attached to the published serial [Starforge Canticles on Royal Road](https://www.royalroad.com/fiction/149065/starforge-canticles). These are clean review copies, not workshop dumps: source included, runtime junk excluded, validation gates added.
+Curated Act 1-safe public exhibits from Starforge, a published creative serial on [Royal Road](https://www.royalroad.com/fiction/149065/starforge-canticles) and an in-progress hobby narrative-game adaptation. These are clean review copies, not workshop dumps: released material only, later acts kept private, source included, runtime junk excluded, validation gates added.
 
-**[No. 14 - starforge-narrative-tools](https://github.com/AthenaTheOwl/starforge-narrative-tools)** - *the corpus and the operating system around it.*
-full prose/spec corpus plus Python conversion and validation tooling for moving long-form writing toward game-ready data.
+**[No. 14 - starforge-narrative-tools](https://github.com/AthenaTheOwl/starforge-narrative-tools)** - *the public slice and the operating system around it.*
+released Act 1 prose/spec slice plus Python conversion and validation tooling for moving long-form writing toward game-ready data.
 
-**[No. 15 - starforge-renpy-demo](https://github.com/AthenaTheOwl/starforge-renpy-demo)** - *a full cleaned Ren'Py adaptation exhibit.*
-narrative scenes, dialogue files, combat vignettes, state systems, and UI screens with lint/static validation.
+**[No. 15 - starforge-renpy-demo](https://github.com/AthenaTheOwl/starforge-renpy-demo)** - *an Act 1 Ren'Py adaptation exhibit.*
+released narrative scenes, dialogue files, combat vignettes, state systems, and UI screens with lint/static validation.
 
-**[No. 16 - starforge-rpg-prototype](https://github.com/AthenaTheOwl/starforge-rpg-prototype)** - *a full cleaned Godot RPG prototype exhibit.*
-party data, combat systems, branching dialogue, quests, scenes, UI scripts, and static project validation.
+**[No. 16 - starforge-rpg-prototype](https://github.com/AthenaTheOwl/starforge-rpg-prototype)** - *an Act 1 Godot RPG prototype exhibit.*
+party data, combat systems, branching dialogue, quests, scenes, UI scripts, and static project validation for the hobby adaptation.
 
 ## // solved
 
