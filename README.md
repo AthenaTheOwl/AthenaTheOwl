@@ -1,11 +1,11 @@
-# Athena - No. 13
+# Athena - No. 16
 
 <!-- -------------------------------------------------------------- -->
 
 > *some assembly required.*
 >
 > optimization depth, AI evals, product judgment,
-> semiconductor maps, and a few notes from the basement.
+> semiconductor maps, and one large passion project under glass.
 > the door is still unmarked.
 
 <!-- -------------------------------------------------------------- -->
@@ -18,7 +18,7 @@ MIT SDM | NTU EEE
 ```
 
 ```
-room 13 | basement | est. 2026
+room 16 | basement | est. 2026
 no cookies, no analytics, no asks.
 ```
 
@@ -41,6 +41,19 @@ foundries, OSATs, equipment, substrates, EDA, hyperscalers, and chokepoints with
 
 **[No. 13 - supplier-risk-rag-agent](https://github.com/AthenaTheOwl/supplier-risk-rag-agent)** - *RAG with receipts.*
 SEC filing excerpts in, cited answers out. retrieval, citation faithfulness, abstention, and regression evals.
+
+## // starforge cluster - in-progress passion project
+
+Curated public exhibits from Starforge, an actively worked-on narrative game project. These are clean review copies, not workshop dumps: source included, runtime junk excluded, validation gates added.
+
+**[No. 14 - starforge-narrative-tools](https://github.com/AthenaTheOwl/starforge-narrative-tools)** - *the corpus and the operating system around it.*
+full prose/spec corpus plus Python conversion and validation tooling for moving long-form writing toward game-ready data.
+
+**[No. 15 - starforge-renpy-demo](https://github.com/AthenaTheOwl/starforge-renpy-demo)** - *a full cleaned Ren'Py adaptation exhibit.*
+narrative scenes, dialogue files, combat vignettes, state systems, and UI screens with lint/static validation.
+
+**[No. 16 - starforge-rpg-prototype](https://github.com/AthenaTheOwl/starforge-rpg-prototype)** - *a full cleaned Godot RPG prototype exhibit.*
+party data, combat systems, branching dialogue, quests, scenes, UI scripts, and static project validation.
 
 ## // solved
 
