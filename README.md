@@ -44,7 +44,7 @@ SEC filing excerpts in, cited answers out. retrieval, citation faithfulness, abs
 
 ## // starforge cluster - in-progress passion project
 
-Curated public exhibits from Starforge, an actively worked-on narrative game project. These are clean review copies, not workshop dumps: source included, runtime junk excluded, validation gates added.
+Curated public exhibits from Starforge, an actively worked-on narrative game project attached to the published serial [Starforge Canticles on Royal Road](https://www.royalroad.com/fiction/149065/starforge-canticles). These are clean review copies, not workshop dumps: source included, runtime junk excluded, validation gates added.
 
 **[No. 14 - starforge-narrative-tools](https://github.com/AthenaTheOwl/starforge-narrative-tools)** - *the corpus and the operating system around it.*
 full prose/spec corpus plus Python conversion and validation tooling for moving long-form writing toward game-ready data.
