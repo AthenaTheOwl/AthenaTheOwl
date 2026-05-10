@@ -42,6 +42,9 @@ foundries, OSATs, equipment, substrates, EDA, hyperscalers, and chokepoints with
 **[No. 13 - supplier-risk-rag-agent](https://github.com/AthenaTheOwl/supplier-risk-rag-agent)** - *RAG with receipts.*
 SEC filing excerpts in, cited answers out. retrieval, citation faithfulness, abstention, and regression evals.
 
+**[No. 17 - procurement-negotiation-lab](https://github.com/AthenaTheOwl/procurement-negotiation-lab)** - *mechanism design, made interactive.*
+walk the bergemann thesis: coordination gap, VCG, ADMM, cost-benefit transfers. custom agents, custom equations, joint-optimality cases. [live demo](https://procurement-negotiation-lab.vercel.app/).
+
 ## // starforge cluster - published serial + in-progress game adaptation
 
 Curated Act 1-safe public exhibits from Starforge, a published creative serial on [Royal Road](https://www.royalroad.com/fiction/149065/starforge-canticles) and an in-progress hobby narrative-game adaptation. These are clean review copies, not workshop dumps: released material only, later acts kept private, source included, runtime junk excluded, validation gates added.
