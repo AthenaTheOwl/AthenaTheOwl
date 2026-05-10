@@ -11,7 +11,7 @@
 <!-- -------------------------------------------------------------- -->
 
 ```
-technical product manager
+product manager - technical
 AI | supply chain | semiconductors | data science
 amazon | qualcomm
 MIT SDM | NTU EEE
