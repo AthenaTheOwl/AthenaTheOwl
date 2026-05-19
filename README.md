@@ -24,6 +24,9 @@ no cookies, no analytics, no asks.
 
 ## // active
 
+**[No. 17 - procurement-negotiation-lab](https://github.com/AthenaTheOwl/procurement-negotiation-lab)** - *flagship demo. mechanism design, made interactive.*
+an 8-level walkthrough of the bergemann thesis: coordination gap, info trade-offs, walkaway zones, ADMM, VCG, multi-party splits, audits, and an authoring sandbox. cross-platform engine; mobile app on the way. [live demo](https://procurement-negotiation-lab.vercel.app/).
+
 **[No. 01 - dispatch-optimizer](https://github.com/AthenaTheOwl/dispatch-optimizer)** - *greedy vs. clever, with constraints that bite.*
 temperature, equipment, time windows, multi-stop. manual against algorithmic.
 
@@ -34,16 +37,13 @@ deterministic rules + persona evals + judge models, wired into CI.
 a product teardown and PRD for an AI supply-chain exception copilot with explicit trust boundaries.
 
 **[No. 11 - athena-site](https://github.com/AthenaTheOwl/athena-site)** - *the front door.*
-personal site, essays, portfolio doors, and a flagship semiconductor supply-chain map embed.
+personal site, essays, portfolio doors, lens paths, and the procurement-negotiation-lab embedded as the flagship demo.
 
 **[No. 12 - chip-supply-chain-map](https://github.com/AthenaTheOwl/chip-supply-chain-map)** - *the chip supply chain as a dependency graph.*
 foundries, OSATs, equipment, substrates, EDA, hyperscalers, and chokepoints with disruption scenarios.
 
 **[No. 13 - supplier-risk-rag-agent](https://github.com/AthenaTheOwl/supplier-risk-rag-agent)** - *RAG with receipts.*
 SEC filing excerpts in, cited answers out. retrieval, citation faithfulness, abstention, and regression evals.
-
-**[No. 17 - procurement-negotiation-lab](https://github.com/AthenaTheOwl/procurement-negotiation-lab)** - *mechanism design, made interactive.*
-walk the bergemann thesis: coordination gap, VCG, ADMM, cost-benefit transfers. custom agents, custom equations, joint-optimality cases. [live demo](https://procurement-negotiation-lab.vercel.app/).
 
 ## // starforge cluster - published serial + in-progress game adaptation
 
