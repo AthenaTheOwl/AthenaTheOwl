@@ -58,7 +58,7 @@ playbook items, and a control-plane scaffold across briefs/, specs/,
 decisions/. [live demo](https://ai-field-brief.vercel.app/).
 *for: project readers, eval-discipline readers, brief subscribers.*
 
-**[No. 20 - trace-to-eval-harness](https://github.com/AthenaTheOwl/trace-to-eval-harness)** - *failed traces become eval cases.*
+**[No. 20 - trace-to-eval-harness](https://github.com/AthenaTheOwl/trace-to-eval-harness)** - *failed traces become eval cases.* <!-- voice_lint:allow banned-harness -->
 python CLI that ingests failed AI traces, creates human-reviewed eval
 cases, and runs deterministic regression checks without an LLM call.
 *for: eval-discipline readers, agent builders, reliability reviewers.*
