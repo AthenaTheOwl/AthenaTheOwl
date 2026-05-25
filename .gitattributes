@@ -1,0 +1,10 @@
+# Markdown must be UTF-8 without BOM
+*.md text working-tree-encoding=UTF-8 eol=lf
+*.md -text-bom
+
+# YAML same discipline (BOM is rare but possible)
+*.yaml text working-tree-encoding=UTF-8 eol=lf
+*.yml text working-tree-encoding=UTF-8 eol=lf
+
+# JSON same
+*.json text working-tree-encoding=UTF-8 eol=lf
