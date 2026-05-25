@@ -24,7 +24,7 @@ no cookies, no analytics, no asks.
 
 I build small evaluated products with operational discipline. every
 decision lives in `decisions/`, every brief is gate-tested, every agent
-run is auditable. four active product repos run the same control plane:
+run is auditable. active product repos run the same control plane:
 shared schemas, shared gate scripts, shared dream-retrospective cadence.
 the cross-repo charter is
 [athena-site/ops/control-plane.md](https://github.com/AthenaTheOwl/athena-site/blob/main/ops/control-plane.md).
@@ -37,9 +37,10 @@ the cross-repo charter is
 (13 specs, web + native, mechanism design made interactive). both show
 the discipline visible in `decisions/` and `dreams/` directories.
 
-**curious visitor.** three live demos: ai-field-brief on vercel,
+**curious visitor.** four live demos: ai-field-brief on vercel,
 procurement-negotiation-lab on vercel, supplier-risk-rag-agent on
-streamlit. pick one and read for five minutes.
+streamlit, and chip-supply-chain-map on vercel. pick one and read for
+five minutes.
 
 **builder or engineer.** fork-friendly. each active repo runs the
 Cognitive Delivery Control Plane — same schemas, same gates. AGENTS.md
@@ -57,6 +58,17 @@ playbook items, and a control-plane scaffold across briefs/, specs/,
 decisions/. [live demo](https://ai-field-brief.vercel.app/).
 *for: project readers, eval-discipline readers, brief subscribers.*
 
+**[No. 20 - trace-to-eval-harness](https://github.com/AthenaTheOwl/trace-to-eval-harness)** - *failed traces become eval cases.*
+python CLI that ingests failed AI traces, creates human-reviewed eval
+cases, and runs deterministic regression checks without an LLM call.
+*for: eval-discipline readers, agent builders, reliability reviewers.*
+
+**[No. 19 - mcp-security-lab](https://github.com/AthenaTheOwl/mcp-security-lab)** - *MCP configs before runtime.*
+python CLI that scans MCP server configs for command execution,
+transport, tool-scope, and prompt-injection risk, then writes JSON and
+markdown policy reports.
+*for: security reviewers, agent builders, tool-permission readers.*
+
 **[No. 17 - procurement-negotiation-lab](https://github.com/AthenaTheOwl/procurement-negotiation-lab)** - *flagship demo. mechanism design, made interactive.*
 an 8-level walkthrough of the bergemann thesis: coordination gap, info
 trade-offs, walkaway zones, ADMM, VCG, multi-party splits, audits, and
@@ -66,13 +78,15 @@ an authoring sandbox. cross-platform engine; mobile app on the way.
 
 **[No. 13 - supplier-risk-rag-agent](https://github.com/AthenaTheOwl/supplier-risk-rag-agent)** - *RAG with receipts.*
 SEC filing excerpts in, cited answers out. retrieval, citation
-faithfulness, abstention, and regression evals.
+faithfulness, abstention, regression evals, and a monthly EDGAR refresh
+path.
 [live demo](https://supplier-risk-rag-agent.streamlit.app/).
 *for: project readers, eval-pipeline builders, supply-chain analysts.*
 
 **[No. 12 - chip-supply-chain-map](https://github.com/AthenaTheOwl/chip-supply-chain-map)** - *the chip supply chain as a dependency graph.*
-foundries, OSATs, equipment, substrates, EDA, hyperscalers, and
-chokepoints with disruption scenarios.
+foundries, OSATs, equipment, substrates, EDA, hyperscalers, AI
+accelerator platforms, chokepoints, disruption scenarios, and sourced
+investor-sensitivity notes.
 *for: semiconductor analysts, supply-chain strategists, curious visitors.*
 
 **[No. 11 - athena-site](https://github.com/AthenaTheOwl/athena-site)** - *the front door.*
@@ -83,7 +97,7 @@ cross-repo control-plane charter under `ops/`.
 
 **[No. 10 - ai-supply-chain-copilot-prd](https://github.com/AthenaTheOwl/ai-supply-chain-copilot-prd)** - *a product teardown.*
 PRD for an AI supply-chain exception copilot with explicit trust
-boundaries. markdown artifact, not a runtime.
+boundaries and a build plan that reuses the live portfolio blocks.
 *for: product readers, project readers, supply-chain operators.*
 
 **[No. 01 - dispatch-optimizer](https://github.com/AthenaTheOwl/dispatch-optimizer)** - *greedy vs. clever, with constraints that bite.*
@@ -119,7 +133,7 @@ scripts, and static project validation for the hobby adaptation.
 spec-driven. every R-* requirement carries an `owner_role:` token and at
 least one DEC-* decision before it ships. every weekly cycle runs a
 dream-retrospective that produces promotion candidates for AGENTS.md,
-SKILL.md, regression tests. eight executable gate scripts (spec_check,
+SKILL.md, regression tests. executable gate scripts (spec_check,
 voice_lint, validate_decisions, validate_roles, validate_tools,
 validate_policies, validate_schemas, validate_registry) fail builds when
 artifacts drift.
