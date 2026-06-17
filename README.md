@@ -31,11 +31,17 @@ the cross-repo charter is
 
 ## // for each kind of reader
 
-**project reader.** start with [No. 18 - ai-field-brief](https://github.com/AthenaTheOwl/ai-field-brief)
-(deployed weekly AI digest with eval gates) or
+**project reader.** start with
 [No. 17 - procurement-negotiation-lab](https://github.com/AthenaTheOwl/procurement-negotiation-lab)
-(13 specs, web + native, mechanism design made interactive). both show
-the discipline visible in `decisions/` and `dreams/` directories.
+(agent coordination under private information: weighted-Nash,
+bounded-leakage, MPC reference path, oracle gaps, property tests), then
+[No. 20 - trace-to-eval-harness](https://github.com/AthenaTheOwl/trace-to-eval-harness)
+(failed traces, CDCP event ledgers, evidence packets, and run bundles).
+
+**project reader.** if you want product cadence and field sense, read
+[No. 18 - ai-field-brief](https://github.com/AthenaTheOwl/ai-field-brief)
+after the two research artifacts. it is the weekly AI digest with
+source gates, faithfulness audit, and run-evidence records.
 
 **curious visitor.** four live demos: ai-field-brief on vercel,
 procurement-negotiation-lab on vercel, supplier-risk-rag-agent on
@@ -60,7 +66,8 @@ decisions/. [live demo](https://ai-field-brief.vercel.app/).
 
 **[No. 20 - trace-to-eval-harness](https://github.com/AthenaTheOwl/trace-to-eval-harness)** - *failed traces become eval cases.* <!-- voice_lint:allow banned-harness -->
 python CLI that ingests failed AI traces, creates human-reviewed eval
-cases, and runs deterministic regression checks without an LLM call.
+cases, validates CDCP run-evidence packets, and wraps runs in
+runtime-agnostic bundles for replay and adapter comparison.
 *for: eval-discipline readers, agent builders, reliability reviewers.*
 
 **[No. 19 - mcp-security-lab](https://github.com/AthenaTheOwl/mcp-security-lab)** - *MCP configs before runtime.*
@@ -69,12 +76,13 @@ transport, tool-scope, and prompt-injection risk, then writes JSON and
 markdown policy reports.
 *for: security reviewers, agent builders, tool-permission readers.*
 
-**[No. 17 - procurement-negotiation-lab](https://github.com/AthenaTheOwl/procurement-negotiation-lab)** - *flagship demo. mechanism design, made interactive.*
-an 8-level walkthrough of the bergemann thesis: coordination gap, info
-trade-offs, walkaway zones, ADMM, VCG, multi-party splits, audits, and
-an authoring sandbox. cross-platform engine; mobile app on the way.
+**[No. 17 - procurement-negotiation-lab](https://github.com/AthenaTheOwl/procurement-negotiation-lab)** - *flagship research artifact. mechanism design, made interactive.*
+an empirical lab for AI-mediated procurement coordination under private
+information: oracle, ADMM, weighted-Nash plaintext, bounded-leakage
+weighted-Nash, v1 MPC reference path, multi-party SDK, property tests,
+and run-evidence records.
 [live demo](https://procurement-negotiation-lab.vercel.app/).
-*for: project readers, mechanism-design readers, factory subsystem teams.*
+*for: project readers, mechanism-design readers, AI economics/policy.*
 
 **[No. 13 - supplier-risk-rag-agent](https://github.com/AthenaTheOwl/supplier-risk-rag-agent)** - *RAG with receipts.*
 SEC filing excerpts in, cited answers out. retrieval, citation
