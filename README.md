@@ -29,32 +29,24 @@ shared schemas, shared gate scripts, shared dream-retrospective cadence.
 the cross-repo charter is
 [athena-site/ops/control-plane.md](https://github.com/AthenaTheOwl/athena-site/blob/main/ops/control-plane.md).
 
-## // for each kind of reader
+## // start here
 
-**project reader.** start with
-[No. 17 - procurement-negotiation-lab](https://github.com/AthenaTheOwl/procurement-negotiation-lab)
-(agent coordination under private information: weighted-Nash,
-bounded-leakage, MPC reference path, oracle gaps, property tests), then
+Start with [No. 17 - procurement-negotiation-lab](https://github.com/AthenaTheOwl/procurement-negotiation-lab)
+for mechanism design under private information, then
 [No. 20 - trace-to-eval-harness](https://github.com/AthenaTheOwl/trace-to-eval-harness)
-(failed traces, CDCP event ledgers, evidence packets, and run bundles).
-
-**project reader.** if you want product cadence and field sense, read
+for eval/replay tooling, then
 [No. 18 - ai-field-brief](https://github.com/AthenaTheOwl/ai-field-brief)
-after the two research artifacts. it is the weekly AI digest with
-source gates, faithfulness audit, and run-evidence records.
+for the weekly AI systems brief.
 
-**curious visitor.** four live demos: ai-field-brief on vercel,
+Four live demos are available: ai-field-brief on vercel,
 procurement-negotiation-lab on vercel, supplier-risk-rag-agent on
-streamlit, and chip-supply-chain-map on vercel. pick one and read for
-five minutes.
+streamlit, and chip-supply-chain-map on vercel.
 
-**builder or engineer.** fork-friendly. each active repo runs the
-Cognitive Delivery Control Plane — same schemas, same gates. AGENTS.md
-in each repo is the agent-onboarding contract.
+Active repos run the Cognitive Delivery Control Plane: shared schemas,
+shared gates, and AGENTS.md onboarding contracts.
 
-**future-self.** `decisions/` ledgers answer "what was I thinking."
-`dreams/` surfaces weekly retrospectives. `event-log/` is the durable
-history across cycles.
+`decisions/` ledgers record the why. `dreams/` surfaces weekly
+retrospectives. `event-log/` is the durable history across cycles.
 
 ## // active
 
@@ -62,51 +54,43 @@ history across cycles.
 deployed brief site with evaluator-graded sources, dream-promoted
 playbook items, and a control-plane scaffold across briefs/, specs/,
 decisions/. [live demo](https://ai-field-brief.vercel.app/).
-*for: project readers, eval-discipline readers, brief subscribers.*
 
 **[No. 20 - trace-to-eval-harness](https://github.com/AthenaTheOwl/trace-to-eval-harness)** - *failed traces become eval cases.* <!-- voice_lint:allow banned-harness -->
 python CLI that ingests failed AI traces, creates human-reviewed eval
 cases, validates CDCP run-evidence packets, and wraps runs in
 runtime-agnostic bundles for replay and adapter comparison.
-*for: eval-discipline readers, agent builders, reliability reviewers.*
 
 **[No. 19 - mcp-security-lab](https://github.com/AthenaTheOwl/mcp-security-lab)** - *MCP configs before runtime.*
 python CLI that scans MCP server configs for command execution,
 transport, tool-scope, and prompt-injection risk, then writes JSON and
 markdown policy reports.
-*for: security reviewers, agent builders, tool-permission readers.*
 
-**[No. 17 - procurement-negotiation-lab](https://github.com/AthenaTheOwl/procurement-negotiation-lab)** - *flagship research artifact. mechanism design, made interactive.*
-an empirical lab for AI-mediated procurement coordination under private
+**[No. 17 - procurement-negotiation-lab](https://github.com/AthenaTheOwl/procurement-negotiation-lab)** - *mechanism design, made interactive.*
+a workbench for AI-mediated procurement coordination under private
 information: oracle, ADMM, weighted-Nash plaintext, bounded-leakage
 weighted-Nash, v1 MPC reference path, multi-party SDK, property tests,
 and run-evidence records.
 [live demo](https://procurement-negotiation-lab.vercel.app/).
-*for: project readers, mechanism-design readers, AI economics/policy.*
 
 **[No. 13 - supplier-risk-rag-agent](https://github.com/AthenaTheOwl/supplier-risk-rag-agent)** - *RAG with receipts.*
 SEC filing excerpts in, cited answers out. retrieval, citation
 faithfulness, abstention, regression evals, and a monthly EDGAR refresh
 path.
 [live demo](https://supplier-risk-rag-agent.streamlit.app/).
-*for: project readers, eval-pipeline builders, supply-chain analysts.*
 
 **[No. 12 - chip-supply-chain-map](https://github.com/AthenaTheOwl/chip-supply-chain-map)** - *the chip supply chain as a dependency graph.*
 foundries, OSATs, equipment, substrates, EDA, hyperscalers, AI
 accelerator platforms, chokepoints, disruption scenarios, and sourced
 investor-sensitivity notes.
-*for: semiconductor analysts, supply-chain strategists, curious visitors.*
 
 **[No. 11 - athena-site](https://github.com/AthenaTheOwl/athena-site)** - *the front door.*
 personal site, essays, portfolio doors, lens paths, and the
 procurement-negotiation-lab embedded as the flagship demo. hosts the
 cross-repo control-plane charter under `ops/`.
-*for: curious visitors, portfolio readers, control-plane spelunkers.*
 
 **[No. 10 - ai-supply-chain-copilot-prd](https://github.com/AthenaTheOwl/ai-supply-chain-copilot-prd)** - *a product teardown.*
 PRD for an AI supply-chain exception copilot with explicit trust
 boundaries and a build plan that reuses the live portfolio blocks.
-*for: product readers, project readers, supply-chain operators.*
 
 **[No. 01 - dispatch-optimizer](https://github.com/AthenaTheOwl/dispatch-optimizer)** - *greedy vs. clever, with constraints that bite.*
 temperature, equipment, time windows, multi-stop. manual against
