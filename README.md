@@ -13,7 +13,6 @@
 ```
 product manager - technical
 AI | supply chain | semiconductors | data science
-amazon | qualcomm
 MIT SDM | NTU EEE
 ```
 
@@ -21,6 +20,15 @@ MIT SDM | NTU EEE
 room 16 | basement | est. 2026
 no cookies, no analytics, no asks.
 ```
+
+## // bio
+
+I'm a technical product manager working across AI, supply chains, and
+semiconductors. Most of what I do happens in the gap between a working demo and
+the eval suite that decides whether the demo gets to become a product — small,
+evaluated tools with the decisions written down and the gates wired into CI. The
+repos below are that work in the open. I also write speculative fiction; that's
+the No. 14-16 cluster, and it serializes next door on Royal Road.
 
 I build small evaluated products with operational discipline. every
 decision lives in `decisions/`, every brief is gate-tested, every agent
