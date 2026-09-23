@@ -60,8 +60,8 @@ for eval/replay tooling, then
 [No. 18 - ai-field-brief](https://github.com/AthenaTheOwl/ai-field-brief)
 for the weekly AI systems brief.
 
-Three live demos are available, all on vercel: ai-field-brief,
-procurement-negotiation-lab, and chip-supply-chain-map.
+Four live demos are available: ai-field-brief, procurement-negotiation-lab
+and chip-supply-chain-map on vercel, and supplier-risk-rag-agent on streamlit.
 
 Active repos run the Cognitive Delivery Control Plane: shared schemas,
 shared gates, and AGENTS.md onboarding contracts.
@@ -113,6 +113,7 @@ and run-evidence records.
 SEC filing excerpts in, cited answers out. retrieval, citation
 faithfulness, abstention, regression evals, and a monthly EDGAR refresh
 path.
+[live demo](https://supplier-risk-rag-agent.streamlit.app/).
 
 **[No. 12 - chip-supply-chain-map](https://github.com/AthenaTheOwl/chip-supply-chain-map)** - *the chip supply chain as a dependency graph.*
 foundries, OSATs, equipment, substrates, EDA, hyperscalers, AI
