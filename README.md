@@ -71,6 +71,15 @@ retrospectives. `event-log/` is the durable history across cycles.
 
 ## // active
 
+**[No. 26 - agent-key-inventory](https://github.com/AthenaTheOwl/agent-key-inventory)** - *what an agent session can reach.*
+env keys, cloud profiles, git and registry tokens, ssh keys, MCP servers: the
+authority an agent inherits, by name and location only, never values, diffed
+against what was used.
+
+**[No. 25 - judge-kappa](https://github.com/AthenaTheOwl/judge-kappa)** - *is this judge fit to grade?*
+chance-corrected agreement with human labels, test-retest, and position-swap
+flips. saved verdicts in, one exit code out.
+
 **[No. 24 - eval-forge](https://github.com/AthenaTheOwl/eval-forge)** - *evals as gates, not dashboards.*
 eval-pack runner and CI gate for LLM systems. recall, citation-faithfulness,
 abstention, refusal in. a typed report and a non-zero exit on regression out.
