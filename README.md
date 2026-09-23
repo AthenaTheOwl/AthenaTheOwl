@@ -11,9 +11,9 @@
 <!-- -------------------------------------------------------------- -->
 
 ```
-product manager - technical
-AI | supply chain | semiconductors | data science
-MIT SDM | NTU EEE
+AI · mechanism design · systems thinking · supply chain · logistics
+semiconductors · data science
+carGO Health · Amazon · Qualcomm | MIT SDM · NTU EEE
 ```
 
 ```
@@ -23,19 +23,33 @@ no cookies, no analytics, no asks.
 
 ## // bio
 
-I'm a technical product manager working across AI, supply chains, and
-semiconductors. Most of what I do happens in the gap between a working demo and
-the eval suite that decides whether the demo gets to become a product — small,
-evaluated tools with the decisions written down and the gates wired into CI. The
-repos below are that work in the open. I also write speculative fiction; that's
-the No. 14-16 cluster, and it serializes next door on Royal Road.
+I build independently now. Most of it happens in the gap between a working
+demo and the eval suite that decides whether the demo gets to become a product —
+small, evaluated tools with the decisions written down and the gates wired into
+CI — and the rest is essays about what I find there. I'm a generalist and I pick
+things up fast; got a hard problem, in any field? I'm always glad to talk. I also
+write speculative fiction; that's the No. 14-16 cluster, and it serializes next
+door on Royal Road.
 
-I build small evaluated products with operational discipline. every
+the discipline: every
 decision lives in `decisions/`, every brief is gate-tested, every agent
 run is auditable. active product repos run the same control plane:
 shared schemas, shared gate scripts, shared dream-retrospective cadence.
 the cross-repo charter is
 [athena-site/ops/control-plane.md](https://github.com/AthenaTheOwl/athena-site/blob/main/ops/control-plane.md).
+
+## // latest
+
+newest first. the essays live on [the site](https://athena-site-six.vercel.app/essays/).
+
+- [The best fit was fed the answer](https://athena-site-six.vercel.app/essays/the-best-fit-was-fed-the-answer/) — the MIT thesis on Bitcoin, re-read: the honest fit was the worse one.
+- [The drawer has a test suite](https://athena-site-six.vercel.app/essays/the-drawer-has-a-test-suite/) — old practice problems, opened and run.
+- [Four years and six weeks](https://athena-site-six.vercel.app/essays/four-years-and-six-weeks/) — an exit record with the fields the form does not have.
+- [Compaction is a decision, not a threshold](https://athena-site-six.vercel.app/essays/compaction-is-a-decision/)
+- [pass^k, not pass@1](https://athena-site-six.vercel.app/essays/pass-k-not-pass-at-1/)
+
+current build: [ai-field-brief](https://ai-field-brief.vercel.app/), a weekly
+field brief on AI where every claim traces to a primary source.
 
 ## // start here
 
@@ -46,9 +60,8 @@ for eval/replay tooling, then
 [No. 18 - ai-field-brief](https://github.com/AthenaTheOwl/ai-field-brief)
 for the weekly AI systems brief.
 
-Four live demos are available: ai-field-brief on vercel,
-procurement-negotiation-lab on vercel, supplier-risk-rag-agent on
-streamlit, and chip-supply-chain-map on vercel.
+Three live demos are available, all on vercel: ai-field-brief,
+procurement-negotiation-lab, and chip-supply-chain-map.
 
 Active repos run the Cognitive Delivery Control Plane: shared schemas,
 shared gates, and AGENTS.md onboarding contracts.
@@ -58,10 +71,21 @@ retrospectives. `event-log/` is the durable history across cycles.
 
 ## // active
 
-**[No. 18 - ai-field-brief](https://github.com/AthenaTheOwl/ai-field-brief)** - *weekly AI digest with concrete moves.*
-deployed brief site with evaluator-graded sources, dream-promoted
-playbook items, and a control-plane scaffold across briefs/, specs/,
-decisions/. [live demo](https://ai-field-brief.vercel.app/).
+**[No. 24 - eval-forge](https://github.com/AthenaTheOwl/eval-forge)** - *evals as gates, not dashboards.*
+eval-pack runner and CI gate for LLM systems. recall, citation-faithfulness,
+abstention, refusal in. a typed report and a non-zero exit on regression out.
+
+**[No. 23 - agent-notary-layer](https://github.com/AthenaTheOwl/agent-notary-layer)** - *receipts for agent-to-agent actions.*
+ed25519 hash-chained receipts in, a replayable dispute trail out, payload
+never exposed.
+
+**[No. 22 - grid-silicon](https://github.com/AthenaTheOwl/grid-silicon)** - *how real is that datacenter?*
+scores announced large-load projects 0-100. announced-vs-energized MW gap plus
+sourced queue, permit, and satellite signals.
+
+**[No. 21 - sports-prediction-os](https://github.com/AthenaTheOwl/sports-prediction-os)** - *soccer beyond who-will-win.*
+understat + statsbomb + socceraction; possession value and next-event modeling
+on a weekly eval loop.
 
 **[No. 20 - trace-to-eval-harness](https://github.com/AthenaTheOwl/trace-to-eval-harness)** - *failed traces become eval cases.* <!-- voice_lint:allow banned-harness -->
 python CLI that ingests failed AI traces, creates human-reviewed eval
@@ -72,6 +96,11 @@ runtime-agnostic bundles for replay and adapter comparison.
 python CLI that scans MCP server configs for command execution,
 transport, tool-scope, and prompt-injection risk, then writes JSON and
 markdown policy reports.
+
+**[No. 18 - ai-field-brief](https://github.com/AthenaTheOwl/ai-field-brief)** - *weekly AI digest with concrete moves.*
+deployed brief site with evaluator-graded sources, dream-promoted
+playbook items, and a control-plane scaffold across briefs/, specs/,
+decisions/. [live demo](https://ai-field-brief.vercel.app/).
 
 **[No. 17 - procurement-negotiation-lab](https://github.com/AthenaTheOwl/procurement-negotiation-lab)** - *mechanism design, made interactive.*
 a workbench for AI-mediated procurement coordination under private
@@ -84,7 +113,6 @@ and run-evidence records.
 SEC filing excerpts in, cited answers out. retrieval, citation
 faithfulness, abstention, regression evals, and a monthly EDGAR refresh
 path.
-[live demo](https://supplier-risk-rag-agent.streamlit.app/).
 
 **[No. 12 - chip-supply-chain-map](https://github.com/AthenaTheOwl/chip-supply-chain-map)** - *the chip supply chain as a dependency graph.*
 foundries, OSATs, equipment, substrates, EDA, hyperscalers, AI
@@ -100,12 +128,12 @@ cross-repo control-plane charter under `ops/`.
 PRD for an AI supply-chain exception copilot with explicit trust
 boundaries and a build plan that reuses the live portfolio blocks.
 
+**[No. 02 - LLM-evaluation-framework](https://github.com/AthenaTheOwl/LLM-evaluation-framework)** - *quality is more than one score.*
+deterministic rules + persona evals + judge models, wired into CI.
+
 **[No. 01 - dispatch-optimizer](https://github.com/AthenaTheOwl/dispatch-optimizer)** - *greedy vs. clever, with constraints that bite.*
 temperature, equipment, time windows, multi-stop. manual against
 algorithmic.
-
-**[No. 02 - LLM-evaluation-framework](https://github.com/AthenaTheOwl/LLM-evaluation-framework)** - *quality is more than one score.*
-deterministic rules + persona evals + judge models, wired into CI.
 
 ## // starforge cluster - published serial + in-progress game adaptation
 
@@ -116,17 +144,17 @@ review copies, not workshop dumps: released material only, later acts
 kept private, source included, runtime junk excluded, validation gates
 added.
 
-**[No. 14 - starforge-narrative-tools](https://github.com/AthenaTheOwl/starforge-narrative-tools)** - *the public slice and the operating system around it.*
-released Act 1 prose/spec slice plus Python conversion and validation
-tooling for moving long-form writing toward game-ready data.
+**[No. 16 - starforge-rpg-prototype](https://github.com/AthenaTheOwl/starforge-rpg-prototype)** - *an Act 1 Godot RPG prototype exhibit.*
+party data, combat systems, branching dialogue, quests, scenes, UI
+scripts, and static project validation for the hobby adaptation.
 
 **[No. 15 - starforge-renpy-demo](https://github.com/AthenaTheOwl/starforge-renpy-demo)** - *an Act 1 Ren'Py adaptation exhibit.*
 released narrative scenes, dialogue files, combat vignettes, state
 systems, and UI screens with lint/static validation.
 
-**[No. 16 - starforge-rpg-prototype](https://github.com/AthenaTheOwl/starforge-rpg-prototype)** - *an Act 1 Godot RPG prototype exhibit.*
-party data, combat systems, branching dialogue, quests, scenes, UI
-scripts, and static project validation for the hobby adaptation.
+**[No. 14 - starforge-narrative-tools](https://github.com/AthenaTheOwl/starforge-narrative-tools)** - *the public slice and the operating system around it.*
+released Act 1 prose/spec slice plus Python conversion and validation
+tooling for moving long-form writing toward game-ready data.
 
 ## // how I build
 
@@ -146,26 +174,28 @@ policy-engine runtime + dashboard.
 
 ## // solved
 
-**[No. 03 - MIT-SDM-Thesis-on-System-Dynamics-Modeling-of-Bitcoin](https://github.com/AthenaTheOwl/MIT-SDM-Thesis-on-System-Dynamics-Modeling-of-Bitcoin)** - *a thesis. system dynamics. bitcoin.*
-all model files, replicable.
-
-**[No. 04 - world-food-program-robust-simulator](https://github.com/AthenaTheOwl/world-food-program-robust-simulator)** - *humanitarian logistics, under uncertainty.*
-77,000 people in syria. nominal LP, robust SOCP, monte carlo, two-stage adaptive contracts. streamlit + cvxpy.
+**[No. 06 - Robust-Facility-Location](https://github.com/AthenaTheOwl/Robust-Facility-Location)** - *where to build, when you do not know demand.*
+nominal, robust, ellipsoidal, adaptive. side-by-side, with stress tests.
 
 **[No. 05 - semiconductor-e2e-manufacturing-optimization](https://github.com/AthenaTheOwl/semiconductor-e2e-manufacturing-optimization)** - *wafers, monte carlo, two-stage adaptive.*
 the same toolkit, pointed at a fab.
 
-**[No. 06 - Robust-Facility-Location](https://github.com/AthenaTheOwl/Robust-Facility-Location)** - *where to build, when you do not know demand.*
-nominal, robust, ellipsoidal, adaptive. side-by-side, with stress tests.
+**[No. 04 - world-food-program-robust-simulator](https://github.com/AthenaTheOwl/world-food-program-robust-simulator)** - *humanitarian logistics, under uncertainty.*
+77,000 people in syria. nominal LP, robust SOCP, monte carlo, two-stage adaptive contracts. streamlit + cvxpy.
+
+**[No. 03 - MIT-SDM-Thesis-on-System-Dynamics-Modeling-of-Bitcoin](https://github.com/AthenaTheOwl/MIT-SDM-Thesis-on-System-Dynamics-Modeling-of-Bitcoin)** - *a thesis. system dynamics. bitcoin.*
+all model files, replicable. essay: [The best fit was fed the answer](https://athena-site-six.vercel.app/essays/the-best-fit-was-fed-the-answer/).
 
 ## // in the drawer
+
+**[No. 09 - leetcode](https://github.com/AthenaTheOwl/leetcode)** - *the obligatory grind, captured for completeness.*
+
+**[No. 08 - MIT-AI-Fall20](https://github.com/AthenaTheOwl/MIT-AI-Fall20)** - *coursework, kept for posterity.*
 
 **[No. 07 - News-Bias-Multi-Agent-Pipeline](https://github.com/AthenaTheOwl/News-Bias-Multi-Agent-Pipeline)** - *agents reading agents reading the news.*
 pull, summarize, detect bias, critique the detector, summarize again. early experiment, kept in the drawer.
 
-**[No. 08 - MIT-AI-Fall20](https://github.com/AthenaTheOwl/MIT-AI-Fall20)** - *coursework, kept for posterity.*
-
-**[No. 09 - leetcode](https://github.com/AthenaTheOwl/leetcode)** - *the obligatory grind, captured for completeness.*
+No. 08 and No. 09 were opened and run in september 2026: [The drawer has a test suite](https://athena-site-six.vercel.app/essays/the-drawer-has-a-test-suite/).
 
 ## // contact
 
