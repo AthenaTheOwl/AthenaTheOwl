@@ -54,7 +54,8 @@ field brief on AI where every claim traces to a primary source.
 current tools to inspect: [agent-key-inventory](https://github.com/AthenaTheOwl/agent-key-inventory)
 maps the authority a session inherits; [eval-forge](https://github.com/AthenaTheOwl/eval-forge)
 checks regressions without letting dropped cases disappear; [source-decay-ledger](https://github.com/AthenaTheOwl/source-decay-ledger)
-scores evidence at an explicit historical cutoff. the useful question across them:
+scores each source by how often it yields published brief items, as of an
+explicit cutoff. the useful question across them:
 which version, which inputs, and what would make this result stop applying?
 
 ## // start here
