@@ -51,6 +51,12 @@ newest first. the essays live on [the site](https://athena-site-six.vercel.app/e
 current build: [ai-field-brief](https://ai-field-brief.vercel.app/), a weekly
 field brief on AI where every claim traces to a primary source.
 
+current tools to inspect: [agent-key-inventory](https://github.com/AthenaTheOwl/agent-key-inventory)
+maps the authority a session inherits; [eval-forge](https://github.com/AthenaTheOwl/eval-forge)
+checks regressions without letting dropped cases disappear; [source-decay-ledger](https://github.com/AthenaTheOwl/source-decay-ledger)
+scores evidence at an explicit historical cutoff. the useful question across them:
+which version, which inputs, and what would make this result stop applying?
+
 ## // start here
 
 Start with [No. 17 - procurement-negotiation-lab](https://github.com/AthenaTheOwl/procurement-negotiation-lab)
